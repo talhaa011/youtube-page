@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+}
+.youtube img{
+    width: 55px;
+    height: 55px;
+    float: left;
+}
+.youtube h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin-left: 5px;
+}
+.youtube sup{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.youtube h1:hover{
+    color: red;
+    transition: 0.4s ease;
+}
+.container{
+    max-width: 870px;
+    padding: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    border-left: 4px double grey;
+    height: auto;
+    flex-wrap: wrap;
+}
+.container .mybox{
+    background-color: transparent;
+    border: 2px gray ;
+}
+.box{
+    background-image: url("6.jpg");
+    border: 3px solid rgb(114, 114, 114) ;
+    width: 300px;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+.box span{
+    border-radius: 5px;
+    background-color: rgba(66, 66, 66, 0.9);
+    color: white;
+    bottom: 5px;
+    right: 5px;
+    position: absolute;
+}
+.box:hover span{
+    opacity: 0;
+}
+.sub-box ul .icon{
+    color: black;
+    font-size: 25px;
+    margin-left: 10px;
+    padding: 4px;
+}
+.sub-box ul .icon:hover{
+    color: red;
+    transition: 0.4s ease;
+}
+.sub-box samp {
+    color:red;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+.sub-box ul a{
+    font-weight: 500px bold;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
